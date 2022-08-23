@@ -19,7 +19,7 @@ export default function App() {
   function handleSubmit(event) {
     event.preventDefault();
     if (formData.password === formData.passwordConfirm) {
-      console.log("Successfully signed up");
+      console.log("Successfully Signed Up");
     } else {
       console.log("Passwords do not match");
       return;
@@ -68,7 +68,7 @@ export default function App() {
           />
           <label htmlFor="okayToEmail">I want to join the newsletter</label>
         </div>
-        <button className="form--submit">Sign up</button>
+        <button className="form--submit">Sign Up</button>
       </form>
     </div>
   );
